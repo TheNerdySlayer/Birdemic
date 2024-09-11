@@ -18,8 +18,8 @@
     "path":"folders/Objects/Character/Player.yy",
   },
   "parentObjectId":{
-    "name":"Obj_charcter",
-    "path":"objects/Obj_charcter/Obj_charcter.yy",
+    "name":"Obj_character",
+    "path":"objects/Obj_character/Obj_character.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
