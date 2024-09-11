@@ -44,13 +44,11 @@
   },
   "name":"Birdemic",
   "resources":[
-
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
-
     {"id":{"name":"ft_font","path":"fonts/ft_font/ft_font.yy",},},
     {"id":{"name":"gameover_font","path":"fonts/gameover_font/gameover_font.yy",},},
     {"id":{"name":"try_again_font","path":"fonts/try_again_font/try_again_font.yy",},},
-    {"id":{"name":"Obj_charcter","path":"objects/Obj_charcter/Obj_charcter.yy",},},
+    {"id":{"name":"Obj_character","path":"objects/Obj_character/Obj_character.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_gameover_manager","path":"objects/obj_gameover_manager/obj_gameover_manager.yy",},},
     {"id":{"name":"obj_hud_kills","path":"objects/obj_hud_kills/obj_hud_kills.yy",},},
@@ -59,7 +57,6 @@
     {"id":{"name":"retry_button","path":"objects/retry_button/retry_button.yy",},},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},},
-    {"id":{"name":"MADPIGEON1","path":"sprites/MADPIGEON1/MADPIGEON1.yy",},},
     {"id":{"name":"seq_game_hud","path":"sequences/seq_game_hud/seq_game_hud.yy",},},
     {"id":{"name":"seq_gameover","path":"sequences/seq_gameover/seq_gameover.yy",},},
     {"id":{"name":"bird_death","path":"sounds/bird_death/bird_death.yy",},},
@@ -68,6 +65,7 @@
     {"id":{"name":"hud_kills","path":"sprites/hud_kills/hud_kills.yy",},},
     {"id":{"name":"hud_timer","path":"sprites/hud_timer/hud_timer.yy",},},
     {"id":{"name":"hud_try_again","path":"sprites/hud_try_again/hud_try_again.yy",},},
+    {"id":{"name":"MADPIGEON1","path":"sprites/MADPIGEON1/MADPIGEON1.yy",},},
     {"id":{"name":"player_car","path":"sprites/player_car/player_car.yy",},},
     {"id":{"name":"Road","path":"sprites/Road/Road.yy",},},
   ],
