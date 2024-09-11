@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"try_again",
-    "path":"sprites/try_again/try_again.yy",
+    "name":"hud_try_again",
+    "path":"sprites/hud_try_again/hud_try_again.yy",
   },
   "spriteMaskId":null,
   "visible":true,
