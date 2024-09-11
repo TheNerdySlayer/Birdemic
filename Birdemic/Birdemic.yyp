@@ -45,6 +45,7 @@
     {"id":{"name":"obj_hud_kills","path":"objects/obj_hud_kills/obj_hud_kills.yy",},},
     {"id":{"name":"obj_hud_timer","path":"objects/obj_hud_timer/obj_hud_timer.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
+    {"id":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},},
     {"id":{"name":"seq_game_hud","path":"sequences/seq_game_hud/seq_game_hud.yy",},},
     {"id":{"name":"hud_kills","path":"sprites/hud_kills/hud_kills.yy",},},
     {"id":{"name":"hud_timer","path":"sprites/hud_timer/hud_timer.yy",},},
@@ -53,7 +54,9 @@
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[],
+  "RoomOrderNodes":[
+    {"roomId":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},},
+  ],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
