@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 2F1F8BEA
+/// @DnDArgument : "xpos" "other.x"
+/// @DnDArgument : "ypos" "other.y"
+/// @DnDArgument : "objectid" "obj_enemy_kill_effect"
+/// @DnDSaveInfo : "objectid" "obj_enemy_kill_effect"
+instance_create_layer(other.x, other.y, "Instances", obj_enemy_kill_effect);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 328B1664
