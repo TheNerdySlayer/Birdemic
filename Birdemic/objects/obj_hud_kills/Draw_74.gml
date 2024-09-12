@@ -25,10 +25,10 @@ draw_set_font(ft_font);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 52D8BDC8
-/// @DnDArgument : "x" "-60"
+/// @DnDArgument : "x" "-80"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "30"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "obj_Player.birds"
-draw_text(x + -60, y + 30,  + string(obj_Player.birds));
+draw_text(x + -80, y + 30,  + string(obj_Player.birds));

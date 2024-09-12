@@ -66,6 +66,7 @@
     {"id":{"name":"seq_gameover","path":"sequences/seq_gameover/seq_gameover.yy",},},
     {"id":{"name":"bird_death","path":"sounds/bird_death/bird_death.yy",},},
     {"id":{"name":"burning_fire_loop_1_188211","path":"sounds/burning_fire_loop_1_188211/burning_fire_loop_1_188211.yy",},},
+    {"id":{"name":"explosion_6801","path":"sounds/explosion_6801/explosion_6801.yy",},},
     {"id":{"name":"background_gameover","path":"sprites/background_gameover/background_gameover.yy",},},
     {"id":{"name":"enemy_kill_effect","path":"sprites/enemy_kill_effect/enemy_kill_effect.yy",},},
     {"id":{"name":"gameover","path":"sprites/gameover/gameover.yy",},},
