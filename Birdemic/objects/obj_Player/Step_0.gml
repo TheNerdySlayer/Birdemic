@@ -13,5 +13,4 @@ repeat(move_count_y)
 	y += move_amount_y;
 }
 
-x = clamp(x, 0, 1920-256); 
-y = clamp(y, 0, 1080-256); 
+move_wrap(1,1,0);
