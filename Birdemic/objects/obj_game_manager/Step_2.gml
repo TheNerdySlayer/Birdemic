@@ -3,16 +3,7 @@
 /// @DnDHash : 290DA326
 /// @DnDArgument : "var" "obj_hud_timer.my_timer"
 /// @DnDArgument : "op" "3"
-if(obj_hud_timer.my_timer <= 0){	/// @DnDAction : YoYo Games.Common.Get_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 553BBBC9
-	/// @DnDParent : 290DA326
-	/// @DnDArgument : "output" "current_highscore"
-	/// @DnDArgument : "output_temp" "1"
-	/// @DnDArgument : "var" "global.highscore"
-	var current_highscore = global.highscore;
-
-	/// @DnDAction : YoYo Games.Common.Set_Global
+if(obj_hud_timer.my_timer <= 0){	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 5DFE1281
 	/// @DnDParent : 290DA326
@@ -26,13 +17,13 @@ if(obj_hud_timer.my_timer <= 0){	/// @DnDAction : YoYo Games.Common.Get_Global
 	/// @DnDParent : 290DA326
 	/// @DnDArgument : "var" "obj_Player.birds"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "current_highscore"
-	if(obj_Player.birds > current_highscore){	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDArgument : "value" "global.highscore"
+	if(obj_Player.birds > global.highscore){	/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
 		/// @DnDHash : 0250F3DB
 		/// @DnDParent : 34CC691C
 		/// @DnDArgument : "value" "obj_Player.birds"
-		/// @DnDArgument : "var" "global.highscore"
+		/// @DnDArgument : "var" "highscore"
 		global.highscore = obj_Player.birds;
 	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room

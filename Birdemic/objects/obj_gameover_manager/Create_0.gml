@@ -7,15 +7,6 @@
 /// @DnDSaveInfo : "sequenceid" "seq_gameover"
 layer_sequence_create("instances", 0, 0, seq_gameover);
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 13F5414F
-/// @DnDInput : 2
-/// @DnDArgument : "var" "high_score"
-/// @DnDArgument : "var_1" "player_kills"
-high_score = 0;
-player_kills = 0;
-
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 2E22200B

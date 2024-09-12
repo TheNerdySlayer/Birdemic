@@ -25,21 +25,21 @@ draw_set_font(gameover_font);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 3F1C4171
-/// @DnDArgument : "x" "-20"
+/// @DnDArgument : "x" "-70"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "100"
+/// @DnDArgument : "y" "120"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Pigeon killed: ""
-/// @DnDArgument : "var" "player_kills"
-draw_text(x + -20, y + 100, string("Pigeon killed: ") + string(player_kills));
+/// @DnDArgument : "var" "global.kills"
+draw_text(x + -70, y + 120, string("Pigeon killed: ") + string(global.kills));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 789DCF64
-/// @DnDArgument : "x" "-20"
+/// @DnDArgument : "x" "-120"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "200"
+/// @DnDArgument : "y" "190"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Current highscore: ""
-/// @DnDArgument : "var" "high_score"
-draw_text(x + -20, y + 200, string("Current highscore: ") + string(high_score));
+/// @DnDArgument : "var" "global.highscore"
+draw_text(x + -120, y + 190, string("Current highscore: ") + string(global.highscore));
