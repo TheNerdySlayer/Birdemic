@@ -14,13 +14,13 @@ instance_create_layer(other.x, other.y, "Instances", obj_enemy_kill_effect);
 /// @DnDSaveInfo : "soundid" "bird_death"
 audio_play_sound(bird_death, 0, 0, 1.0, undefined, 1.0);
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 5466A8EE
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "birds"
-birds += 1;
+/// @DnDHash : 498527D4
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "kills"
+global.kills += 1;
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

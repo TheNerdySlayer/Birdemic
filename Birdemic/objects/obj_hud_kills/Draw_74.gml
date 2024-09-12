@@ -30,5 +30,5 @@ draw_set_font(ft_font);
 /// @DnDArgument : "y" "30"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "obj_Player.birds"
-draw_text(x + -80, y + 30,  + string(obj_Player.birds));
+/// @DnDArgument : "var" "global.kills"
+draw_text(x + -80, y + 30,  + string(global.kills));

@@ -1,1 +1,1 @@
-my_timer = max(my_timer, 0)
+my_timer = max(global.my_timer, 0)

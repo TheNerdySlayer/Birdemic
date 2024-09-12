@@ -4,9 +4,9 @@
 /// @DnDArgument : "steps" "room_speed"
 alarm_set(0, room_speed);
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 7FAD12D5
-/// @DnDArgument : "expr" "my_timer-1"
+/// @DnDHash : 4019EE1F
+/// @DnDArgument : "value" "global.my_timer-1"
 /// @DnDArgument : "var" "my_timer"
-my_timer = my_timer-1;
+global.my_timer = global.my_timer-1;
