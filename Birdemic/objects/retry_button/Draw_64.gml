@@ -30,5 +30,5 @@ draw_set_font(try_again_font);
 /// @DnDArgument : "y" "80"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" ""Try Again?""
-draw_text(x + 110, y + 80,  + string("Try Again?"));
+/// @DnDArgument : "var" ""Go Back""
+draw_text(x + 110, y + 80,  + string("Go Back"));
